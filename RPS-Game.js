@@ -68,8 +68,8 @@ function playGame(playerMove) {
   document.querySelector(".js-result").innerHTML = result;
 
   document.querySelector(".js-moves").innerHTML = `
-    You <img src="/images/${playerMove}-emoji.png" alt="Rock" class="move-icon" />
-    <img src="/images/${computerMove}-emoji.png" alt="Paper" class="move-icon" />Computer
+    You <img src="/rock-paper-scissors/images/${playerMove}-emoji.png" alt="${playerMove} Image" class="move-icon" />
+    <img src="/rock-paper-scissors/images/${computerMove}-emoji.png" alt="${computerMove} Image" class="move-icon" />Computer
   `;
 }
 
